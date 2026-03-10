@@ -1,19 +1,37 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SocialSphere - социальная сеть для общения">
-    <title>Лаба_3_Вариант_5 | SocialSphere</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Лаба_4_Вариант_5 | SocialSphere</title>
+    <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/variables.css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
+
 <body itemscope itemtype="https://schema.org/Organization">
+    
     <a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
 
     <header class="header">
         <div class="header__container" itemprop="header">
             <h1 class="header__logo" itemprop="name">SocialSphere</h1>
+
+            <input type="checkbox" id="burger-toggle" class="header__burger-toggle">
+            <label for="burger-toggle" class="header__burger-label">☰</label>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#" class="header__menu-link">Главная</a></li>
+                    <li><a href="#" class="header__menu-link">Профиль</a></li>
+                    <li><a href="#" class="header__menu-link">Сообщения</a></li>
+                    <li><a href="#" class="header__menu-link">Настройки</a></li>
+                </ul>
+            </nav>
+
             <div class="header__info">
                 <strong>Основатели:</strong> 
                     <span itemprop="founder" itemscope itemtype="https://schema.org/Person">
